@@ -1,3 +1,22 @@
+let card= document.querySelector("main")
+console.log(card)
+
+card.style.backgroundColor= "black"
+card.style.color ="white"
+card.style.fontFamily="Roboto"
+
+let titulo = document.querySelector("h2")
+console.log(titulo)
+
+titulo.style.color = "yellow"
+titulo.style.fontSize = "2.5rem"
+
+let botao= document.querySelector("button")
+console.log(botao)
+
+botao.style.borderRadius= "2.5rem"
+
+
 
 const button=document.getElementsByClassName("button")
 
